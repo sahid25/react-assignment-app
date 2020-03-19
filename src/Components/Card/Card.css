@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+.cardArea {
+  font-size: 14px;
+  color: #777777;
+  font-family: 'Roboto', lato;
+}
+
+/* Main */
+main .left-content .active-title {
+  /* color: #777777; */
+  font-weight: 600;
+  padding-top: 20px;
+  /* color: #4cd137; */
+  cursor: pointer;
+}
+
+
+main .left-content {
+  border-right: 1px solid rgba(250, 128, 114, 0.199);
+}
+
+.left-content .active-user {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.767);
+}
+
+.active-user .user-img {
+  width: 100px;
+
+}
+
+.active-user-details {
+  padding: 10px;
+}
+
+.active-user-details p {
+  font-size: 16px;
+  font-family: 'lato';
+  line-height: 20px;
+  color: tomato;
+  transition: all 0.3s;
+  font-weight: 400;
+
+}
+
+.active-user-details .active-user-name a {
+  color: tomato;
+}
+
+.active-user-details .active-status {
+  color: #4cd137;
+  cursor: pointer;
+}
+
+.btn {
+  margin-left: auto;
+  background: none;
+  border: 1px solid tomato !important;
+  color: tomato;
+  outline: none !important;
+  transition: all 0.3s;
+}
+
+.btn:focus {
+  outline: none !important;
+  outline-color: none !important;
+  border: 1px solid tomato !important;
+  background: white !important;
+  color: tomato;
+}
+
+.btn:hover {
+  background: tomato;
+}

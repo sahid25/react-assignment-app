@@ -1,0 +1,30 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*  */
+header {
+  background-color: tomato;
+}
+
+header li {
+  display: inline-flex;
+}
+
+header li a {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-right: 5rem;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+
+header a:hover {
+  color: #ffffff;
+}
